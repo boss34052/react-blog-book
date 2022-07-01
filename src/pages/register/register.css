@@ -1,0 +1,55 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.408),
+        rgba(255, 255, 255, 0.408)
+        ), 
+        url(https://ewscripps.brightspotcdn.com/dims4/default/70e2b00/2147483647/strip/true/crop/960x1280+0+0/resize/960x1280!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2Fdc%2Fcd%2F9af898d042369fb0a900d0de4e58%2Fthumbnail-img-1261.jpeg);
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
